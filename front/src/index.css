@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select {
+  margin: 0;
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+:root {
+  --font-family: 'IBM Plex Sans', 'Arial', sans-serif;
+  --font-size: 16px;
+  --font-line: 24px;
+  --font: var(--font-size) / var(--font-line) var(--font-family);
+}
+
+body {
+  background-color: #fff;
+  min-height: 100vh;
+  max-width: 1200px;
+  min-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font: var(--font)
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 52px;
+  font-weight: 600;
+}
