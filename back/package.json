@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc && tsc-alias",
-    "start": "pm2 start ./dist/src/index.js --name node_server",
+    "start": "pm2 start ./dist/src/index.js --name 3205.team-server",
     "dev": "nodemon ./src/index.ts"
   },
   "nodemonConfig": {
