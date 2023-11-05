@@ -8,7 +8,7 @@ import cors from 'cors';
 dotenv.config();
 
 const sessionSecret = '3205';
-const port = process.env.PORT || 3001;
+const port = 3001;
 const app: Application = express();
 
 app.use(cors({
