@@ -84,6 +84,10 @@ function App() {
         <>
             <Header/>
             <main className={cls.Main}>
+                <div style={{marginBottom: 50, display: 'flex', flexDirection: 'column', gap: 15}}>
+                    <h3>Заддержа обработки запроса 5 секунд.</h3>
+                    <h3>При отправке повтороного запроса, обработка первого запроса будет остановлена.</h3>
+                </div>
                 <div className={cls.Inputs}>
                     <div>
                         <p>Email:</p>
