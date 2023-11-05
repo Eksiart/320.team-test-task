@@ -1,3 +1,4 @@
+import 'module-alias/register';
 import { Router } from 'express';
 import * as userValidator from '@/validators/user';
 import * as userController from '@/controllers/user';
