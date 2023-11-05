@@ -37,7 +37,7 @@ function App() {
             setData(undefined);
             setError(false);
             try {
-                let url = `http://127.0.0.1:3000/api/user?email=${email}`;
+                let url = `https://3205.eksiart.ru/api/user?email=${email}`;
                 if (number) url += `&number=${getDigitsValue(number)}`;
                 const data = await req<{users: User[]}>(url);
                 setData(data.users);
